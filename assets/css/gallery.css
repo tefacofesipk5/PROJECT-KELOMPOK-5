@@ -1,0 +1,32 @@
+.gallery-hero {
+    background-color: #4b3621;
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}

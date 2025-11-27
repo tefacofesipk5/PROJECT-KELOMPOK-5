@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Tefa Coffee</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/product.css">
+</head>
+
+<body>
+
+    <div id="header-container"></div>
+
+    <main>
+        <section class="product-hero d-flex align-items-center justify-content-center text-center text-white">
+            <div class="container">
+                <h1 class="display-3 fw-bold serif-font mb-3">The Art of Tefa Coffee</h1>
+                <p class="lead text-white-50">Explore our signature collection of handcrafted coffees, sourced from the
+                    finest beans around the world.</p>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: var(--bg-cream); min-height: 80vh;">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="serif-font fw-bold" style="color: var(--text-dark);">Our Signature Coffee Collection</h2>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://res.cloudinary.com/dsyktxsby/image/upload/v1764249349/Kemasan_kopi_Kopi_R_jjn8ug.png"
+                                    alt="Tefa Robusta" class="product-img">
+                            </div>
+                            <div class="product-body">
+                                <h5 class="product-title">Tefa Robusta coffe</h5>
+                                <p class="product-subtitle">Medium Roast</p>
+                                <p class="product-notes"> kuat, pekat, dan beraroma pahit khas</p>
+                                <button onclick="openPopup('popup1')" class="btn btn-product w-100 mt-3">VIEW DETAILS</button>
+                                <div id="popup1" class="popup">
+                                <div class="popup-content">
+                                <span class="close" onclick="closePopup('popup1')">&times;</span>
+                                <h2>KOPI ROBUSTA ARGOPURO</h2>
+                                <p>Kopi Robusta Argopuro dengan medium roast menghadirkan rasa kuat, pekat, dan beraroma pahit khas. Cocok untuk penikmat kopi yang mencari keseimbangan antara kekuatan rasa dan aroma klasik Robusta. Memberikan sensasi mantap tanpa terlalu berat, pas untuk dinikmati kapan saja</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://res.cloudinary.com/dsyktxsby/image/upload/v1764249399/Kemasan_kopi_SIP_CO_beehe9.png"
+                                    alt="Argopuro" class="product-img">
+                            </div>
+                            <div class="product-body">
+                                <h5 class="product-title">Tefa Robusta Coffe Argopuro</h5>
+                                <p class="product-subtitle">Light Roast</p>
+                                <p class="product-notes">pahit mantap, cocok untuk penambah semangat</p>
+                                <button onclick="openPopup('popup2')" class="btn btn-product w-100 mt-3">VIEW DETAILS</button>
+                                <div id="popup2" class="popup">
+                                <div class="popup-content">
+                                <span class="close" onclick="closePopup('popup2')">&times;</span>
+                                <h2>KOPI ROBUSTA ARGOPURO</h2>
+                                <p>- Varian light roast dari Robusta Argopuro menonjolkan karakter pahit mantap yang segar, dengan body lebih ringan namun tetap berenergi. Cocok untuk kamu yang ingin tambahan semangat di pagi hari, menghadirkan rasa tegas khas Robusta dengan sentuhan lebih ringan. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://res.cloudinary.com/dsyktxsby/image/upload/v1764249402/Kemasan_kopi_Arabica_vyw9ly.png"
+                                    alt="Arabica" class="product-img">
+                            </div>
+                            <div class="product-body">
+                                <h5 class="product-title">Tefa Arabica Coffe</h5>
+                                <p class="product-subtitle text-uppercase text-muted">COMING SOON</p>
+                                <p class="product-notes">COMING SOON</p>
+                                <button class="btn btn-product w-100 mt-3 disabled" style="opacity: 0.7;">COMING
+                                    SOON</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/popup.js"></script>
+</body>
+
+</html>
