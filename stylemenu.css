@@ -46,6 +46,8 @@ header nav a:hover {
   align-items: center;
   min-height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
 }
+
+
 .hero::before {
   content: "";
   position: absolute;
@@ -63,8 +65,9 @@ header nav a:hover {
 }
 
 .hero h1 {
-  font-size: 30px;
-  margin: 10px 0;
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: 'Lora', serif;
 }
 .hero p {
   max-width: 500px;
@@ -78,15 +81,23 @@ header nav a:hover {
   gap: 20px;
   padding: 40px 60px;
   background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
 }
 .content img {
   width: 230px;
   border-radius: 8px;
   object-fit: cover;
+  
 }
 .text-box {
   max-width: 400px;
 }
+
+.font-serif {
+    font-family: 'Lora', serif;
+    }
 .text-box h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -167,3 +178,5 @@ footer a:hover {
   box-shadow: 0 8px 32px rgba(212, 175, 55, 0.18);
   z-index: 2;
 }
+
+

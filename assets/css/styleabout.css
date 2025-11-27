@@ -1,0 +1,304 @@
+    
+    :root {
+    --primary: #2F4F4F;
+    --secondary: #556B2F;
+    --bg-light: #F5F5DC;
+    --bg-dark: #1a2a2a;
+    --text-light: #36454F;
+    --text-dark: #e0e0e0;
+    }
+
+    
+    body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: #f7f5f2;
+    }
+
+    header {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+header nav a:hover {
+    color: #d4af37;
+}
+
+
+    .font-serif {
+    font-family: 'Lora', serif;
+    }
+
+    
+    .navbar {
+    background-color: rgba(245, 245, 220, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(47, 79, 79, 0.2);
+    }
+
+
+
+    .btn-shop {
+    background-color: var(--accent);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 8px 24px;
+    transition: background-color 0.3s;
+    }
+
+    .btn-shop:hover {
+    background-color: #9a7009;
+    color: white;
+    }
+
+    /* Hero Section */
+    .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZn09oTIzAUB_38Ex9aQbHbroW6bfzcdMePbfB4TjDToQSQBJjQnFOPSX5AQcJ05Zcj8qFlItkBMCOes1yWC77xCkiHwRHnECEO2jg0szGfMEYwBisR-tv7j7D3-c4l7tbCGy9b6D1lXkm1amGKmNkXhw5nx8aSZk77WKL3U-OjT8iGeUPWotDnSMvPcn3DCvbpJKDY7rHFrSVIPluRpAaOMSbqDGvwxndQGCj-6-5yiitsz1IutIgKC6qpxOnK7lTmqoMZn-rYNo');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    }
+
+    .hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Lora', serif;
+    }
+
+    .hero-section h2 {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    }
+
+    @media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    }
+
+    .section-title-small {
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    }
+
+    .section-title {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    }
+
+    /* Timeline */
+    .timeline {
+    position: relative;
+    padding: 40px 0;
+    
+    }
+
+    .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: rgba(47, 79, 79, 0.3);
+    transform: translateX(-50%);
+    }
+
+    .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    
+    }
+
+    .timeline-item.right {
+    padding-left: 55%;
+    padding-right: 0;
+    }
+
+    .timeline-item.left {
+    padding-right: 55%;
+    padding-left: 0;
+    text-align: right;
+    }
+
+    .timeline-dot {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #B8860B;
+    }
+
+    .timeline-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-content h3 {
+    color: var(--secondary);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+
+    .timeline-content p {
+    font-size: 0.875rem;
+    margin: 0;
+    }
+
+    @media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item.right,
+    .timeline-item.left {
+    padding-left: 60px;
+    padding-right: 0;
+    text-align: left;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+    }
+
+    /* Values Section */
+    .value-icon {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(85, 107, 47, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    }
+
+    .value-icon span {
+    font-size: 2rem;
+    color: var(--secondary);
+    }
+
+    .value-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: var(--secondary);
+    }
+
+    /* Mission & Vision */
+    .mission-vision-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    }
+
+    .mission-vision-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    }
+
+    .mission-vision-card p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    }
+
+    .gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    }
+
+
+    .footer {
+    background-color: #3D550C;
+    padding: 3rem 0 1rem;
+    }
+
+    .footer h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    }
+
+    .footer a {
+    color: rgba(245, 245, 220, 0.9);
+    text-decoration: none;
+    transition: color 0.3s;
+    }
+
+    .footer a:hover {
+    color: var(--accent);
+    }
+
+    .footer-logo {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+    }
+
+    .footer svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    }
+
+    .social-icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    transition: fill 0.3s;
+    }
+
+    .social-icon:hover {
+    fill: var(--accent);
+    }
+
+    .bg-light-section {
+    background-color: rgba(47, 79, 79, 0.05);
+    }
+
+    footer a {
+    color: inherit !important;
+    text-decoration: none;
+}
