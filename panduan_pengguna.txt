@@ -1,1 +1,313 @@
+# 📖 Panduan Penggunaan Website Tefa Coffee Polije
 
+## 🎯 Tentang Website
+Website Tefa Coffee adalah platform digital resmi untuk memperkenalkan produk kopi Tefa Coffee Polije, menampilkan informasi produk, sejarah perusahaan, dan cara pemesanan produk kopi berkualitas dari Politeknik Negeri Jember.
+
+---
+
+## 🧭 Navigasi Menu Utama
+
+### 1. **Home (Beranda)**
+**Fungsi:** Halaman utama website yang menampilkan gambaran umum Tefa Coffee
+
+**Apa yang bisa Anda lihat:**
+- Hero section dengan tagline "The Heritage in Every Cup"
+- Pengenalan singkat tentang Tefa Coffee
+- Highlight produk unggulan
+- Call-to-action untuk eksplorasi lebih lanjut
+
+**Cara Menggunakan:**
+- Klik HOME di navbar untuk kembali ke halaman Home
+- Scroll ke bawah untuk melihat preview konten
+- Klik tombol "Shop Now" atau "Learn More" untuk navigasi cepat
+
+---
+
+### 2. **About (Tentang Kami)**
+**Fungsi:** Menampilkan informasi lengkap tentang sejarah dan nilai-nilai Tefa Coffee
+
+**Konten yang tersedia:**
+
+#### a. **Our Journey (Perjalanan Kami)**
+- Cerita awal berdirinya Tefa Coffee dari praktik mahasiswa
+- Peran selama pandemi COVID-19
+- Pendirian resmi pada 2 Januari 2023
+- Status penjualan saat ini di lingkungan Polije
+
+#### b. **Our History (Sejarah Kami)**
+Timeline interaktif yang menampilkan:
+- **2015** - Ide awal pembentukan
+- **2023** - Peluncuran produk pertama dengan kemasan bermerek
+- **2023** - Persiapan ekspansi dan legalitas
+- **2025** - Status terkini dan rencana perluasan
+
+**Cara Menggunakan:**
+- Scroll ke bawah untuk melihat timeline secara berurutan
+- Setiap milestone akan muncul dengan animasi saat Anda scroll
+
+#### c. **Our Core Values (Nilai-Nilai Kami)**
+Tiga pilar utama Tefa Coffee:
+- 🌱 **Sustainability** - Komitmen terhadap praktik ramah lingkungan
+- 🏆 **Exceptional Quality** - Kualitas premium dari biji hingga seduhan
+- 👥 **Community Focus** - Fokus pada kesejahteraan petani dan komunitas
+
+#### d. **Mission & Vision**
+- **Misi:** Menerapkan GMP, keamanan pangan, peningkatan SDM, dan kemitraan strategis
+- **Visi:** Menjadi produsen olahan kopi terkemuka di Indonesia pada tahun 2028
+
+#### e. **Gallery (Galeri Foto)**
+Koleksi foto yang menampilkan:
+- Biji kopi berkualitas
+- Proses produksi
+- Produk jadi
+- Suasana kerja tim
+
+**Cara Menggunakan:**
+- Hover mouse ke gambar untuk efek zoom
+- Gambar akan muncul dengan animasi saat di-scroll
+
+---
+
+### 3. **Products (Produk)**
+**Fungsi:** Menampilkan katalog produk kopi yang tersedia
+
+**Informasi yang ditampilkan:**
+- Foto produk
+- Nama produk
+- Deskripsi singkat
+- Tombol "Add to Cart" atau "Order Now"
+
+**Cara Menggunakan:**
+- Browse produk yang tersedia
+- Klik produk untuk detail lengkap
+
+---
+
+### 4. **Contact (Kontak)**
+**Fungsi:** Halaman untuk menghubungi Tefa Coffee
+
+**Informasi yang tersedia:**
+- Alamat kantor/lokasi produksi
+- Nomor telepon
+- Email
+- Jam operasional
+- Form kontak (jika ada)
+- Google Maps lokasi
+
+**Cara Menggunakan:**
+- Isi form kontak dengan lengkap
+- Klik tombol "Send Message"
+- Atau hubungi langsung via telepon/email yang tertera
+
+---
+
+## 🔍 Fitur-Fitur Website
+
+### ⬆️ Tombol Back to Top
+**Fungsi:** Kembali ke atas halaman dengan cepat
+
+**Cara Menggunakan:**
+- Scroll ke bawah halaman
+- Tombol "↑" akan muncul di pojok kanan bawah
+- Klik tombol tersebut untuk kembali ke atas
+
+---
+
+### 🎬 Animasi Scroll (AOS)
+**Fungsi:** Membuat tampilan lebih interaktif dengan animasi saat scroll
+
+**Jenis Animasi:**
+- **Fade-up:** Elemen muncul dari bawah
+- **Fade-left/right:** Elemen muncul dari samping
+- **Zoom-in:** Elemen muncul dengan efek zoom
+
+**Tips:**
+- Scroll perlahan untuk menikmati animasi
+- Setiap section akan muncul secara bertahap
+- Refresh halaman untuk melihat animasi dari awal
+
+---
+
+### 🖼️ Hover Effect pada Gambar
+**Fungsi:** Interaksi visual saat cursor diarahkan ke gambar
+
+**Cara Kerja:**
+- Arahkan mouse ke gambar di gallery
+- Gambar akan zoom-in dan muncul shadow
+- Efek kembali normal saat cursor keluar
+
+---
+
+## 📱 Responsif Mobile
+
+Website ini **mobile-friendly** dan bisa diakses dengan baik di:
+- 📱 Smartphone
+- 📲 Tablet
+- 💻 Desktop/Laptop
+
+**Tips Penggunaan Mobile:**
+- Navbar akan berubah menjadi hamburger menu (☰)
+- Tap menu untuk membuka navigasi
+- Scroll vertikal untuk melihat konten
+- Pinch to zoom pada gambar (jika diperlukan)
+
+---
+
+## 🛒 Cara Memesan Produk
+
+### Langkah-langkah:
+1. **Pilih Menu Products**
+2. **Browse produk yang tersedia**
+3. **Klik produk untuk detail**
+4. **Pilih jumlah/varian (jika ada)**
+5. **Klik "Order Now" atau "Add to Cart"**
+6. **Isi informasi pemesanan**
+7. **Konfirmasi pesanan**
+
+**Catatan Penting:**
+> Saat ini penjualan masih terbatas di lingkungan Polije. Untuk pemesanan dari luar, silakan hubungi kontak yang tersedia untuk informasi ketersediaan.
+
+---
+
+## 🌐 Footer (Bagian Bawah)
+
+### Informasi di Footer:
+
+#### 1. **About Tefa Coffee**
+- Deskripsi singkat perusahaan
+- Link ke halaman terkait
+
+#### 2. **Quick Links**
+- Home
+- Products
+- About
+- Contact
+
+#### 3. **Contact Info**
+- Alamat lengkap
+- Email
+- Nomor telepon
+- Jam operasional
+
+#### 4. **Social Media**
+Social media icons dengan link ke:
+- 📷 Instagram
+- 👍 Facebook
+- 🐦 Twitter (X)
+
+**Cara Menggunakan:**
+- Klik icon social media untuk ke halaman resmi
+- Icon akan berubah warna saat di-hover
+
+---
+
+## ⚙️ Tips Penggunaan Optimal
+
+### ✅ Do's (Lakukan):
+- Gunakan browser modern (Chrome, Firefox, Safari, Edge)
+- Aktifkan JavaScript untuk animasi optimal
+- Scroll perlahan untuk menikmati animasi AOS
+- Gunakan koneksi internet stabil untuk load gambar
+
+### ❌ Don'ts (Jangan):
+- Jangan gunakan browser lawas (IE)
+- Jangan disable JavaScript
+- Jangan gunakan ad-blocker berlebihan yang bisa blokir resource
+
+---
+
+## 🔧 Troubleshooting
+
+### Masalah: Animasi tidak muncul
+**Solusi:**
+- Refresh halaman (F5)
+- Clear cache browser (Ctrl + Shift + Delete)
+- Pastikan JavaScript aktif
+
+### Masalah: Gambar tidak load
+**Solusi:**
+- Cek koneksi internet
+- Tunggu beberapa saat (gambar mungkin masih loading)
+- Refresh halaman
+
+### Masalah: Menu tidak bisa diklik
+**Solusi:**
+- Pastikan JavaScript aktif
+- Cek console browser untuk error (F12)
+- Coba browser lain
+
+### Masalah: Tampilan berantakan di mobile
+**Solusi:**
+- Gunakan mode portrait (vertikal)
+- Zoom out jika terlalu besar
+- Update browser mobile Anda
+
+---
+
+## 📞 Butuh Bantuan?
+
+Jika mengalami kesulitan dalam menggunakan website:
+
+📧 **Email:** [email_tefa@polije.ac.id]
+📱 **WhatsApp:** [Nomor WA]
+📍 **Lokasi:** Politeknik Negeri Jember
+⏰ **Jam Operasional:** Senin - Jumat, 08.00 - 16.00 WIB
+
+---
+
+## 🎓 Untuk Mahasiswa Polije
+
+**Kemudahan Khusus:**
+- Akses langsung untuk pemesanan internal
+- Pick-up point di area kampus
+- Pembayaran bisa via transfer/tunai
+
+
+---
+
+## 🔐 Privasi & Keamanan
+
+- Informasi pribadi tidak dibagikan ke pihak ketiga
+- Transaksi dilakukan dengan aman
+- Baca kebijakan privasi lengkap di halaman terkait
+
+---
+
+## 📊 Sistem Rating & Review (Jika Ada)
+
+Jika fitur review tersedia:
+1. Login/daftar terlebih dahulu
+2. Beli dan terima produk
+3. Beri rating (1-5 bintang)
+4. Tulis review jujur
+5. Submit review
+
+
+## 📈 Update & Pengembangan
+
+Website ini terus dikembangkan dengan fitur-fitur baru:
+- ✅ Sistem pemesanan online
+- ✅ Payment gateway
+- ✅ Tracking pesanan
+- ✅ Program membership
+- ✅ Mobile app
+
+**Ikuti social media kami untuk info update terbaru!**
+
+---
+
+## ✨ Kesimpulan
+
+Website Tefa Coffee dirancang **user-friendly** dengan:
+- Navigasi mudah dan intuitif
+- Desain responsive untuk semua device
+- Animasi menarik untuk pengalaman lebih baik
+- Informasi lengkap tentang produk dan perusahaan
+
+**Selamat menjelajahi website Tefa Coffee! ☕**
+
+---
+
+*Panduan ini dibuat untuk membantu pengguna memaksimalkan pengalaman menggunakan website Tefa Coffee Polije. Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.*
+
+**© 2025 Tefa Coffee Polije - All Rights Reserved**
