@@ -1,4 +1,3 @@
-// Smooth scroll untuk semua link anchor
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
@@ -8,7 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
-// Tombol Back to Top
 let backTop = document.getElementById("backTop");
 
 window.addEventListener("scroll", () => {
@@ -26,7 +24,7 @@ backTop.onclick = () => {
   });
 };
 
-// AOS Animation
+
 AOS.init();
 const fadeItems = document.querySelectorAll(".fade-in");
 
@@ -65,4 +63,22 @@ window.addEventListener('scroll', function() {
     navbar.classList.remove('shrink');
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
