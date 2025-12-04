@@ -275,3 +275,44 @@
     .bg-light-section {
     background-color: rgba(47, 79, 79, 0.05);
     }
+
+    .value-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: #f3cb51;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-icon .material-symbols-outlined {
+    color: white;
+    font-size: 40px;
+}
+
+.value-title {
+    color: #3E2723;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    min-height: 400px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.hero-section h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
